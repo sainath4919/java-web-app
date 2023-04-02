@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 script{
-                    git branch: 'master', url: 'https://github.com/sainath4919/java-web-app.git'
+                    git branch: 'main', url: 'https://github.com/sainath4919/java-web-app.git'
             }
         }
         }
